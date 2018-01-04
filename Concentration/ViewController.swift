@@ -60,5 +60,9 @@ class ViewController: UIViewController {
         }
        return emoji[card.identifier] ?? "?"
     }
+    func hello(){
+        print("Hello");
+    }
+
 }
 
