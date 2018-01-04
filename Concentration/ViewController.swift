@@ -16,6 +16,8 @@ class ViewController: UIViewController {
 
 //UIVIewControllers knows how to control eveything in a UI, so by ViewController inheriting from that, it knows how to control all that as well.
     
+    
+    
     var flipCount: Int = 0{
         didSet{
             flipCountLabel.text = "Flips: \(flipCount)"
