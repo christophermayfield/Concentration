@@ -1,0 +1,8 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "18a075d26e14e113809cd6be51a2b777"
+build_time: [1513200715, 241536000]
+inputs:
+  "/Users/chrismayfield/Desktop/Concentration/Concentration/ViewController.swift": [1511462984, 0]
+  "/Users/chrismayfield/Desktop/Concentration/Concentration/AppDelegate.swift": [1511337145, 0]
+  "/Users/chrismayfield/Desktop/Concentration/Concentration/Concentration.swift": [1511464975, 0]
+  "/Users/chrismayfield/Desktop/Concentration/Concentration/Card.swift": [1511422291, 0]
