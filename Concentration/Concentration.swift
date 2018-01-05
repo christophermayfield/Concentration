@@ -10,6 +10,7 @@ import Foundation
 
 class Concentration {
     var cards = [Card]()
+    var score = 0
     var indexOfOneAndOnlyCard: Int?
     func chooseCard(at index: Int) {
         if !cards[index].isMatched {
@@ -33,13 +34,20 @@ class Concentration {
     }
     
     init(numberOfPairsOfCards: Int) {
+        var unShuffledCards: [Card] = []
         for _ in 1...numberOfPairsOfCards {
             let card = Card()
-            cards += [card, card]
+            unShuffledCards += [card, card]
         }
         //TODO: Shuffle the cards
+        while !unShuffledCards.isEmpty {
+            let randomIndex = Int(arc4random_uniform(UInt32(unShuffledCards.count)))
+            let card = unShuffledCards.remove(at: randomIndex);
+            cards.append(card)
+            
+            
+        }
         
-        var FirstCard: Int 
     }
 }
 
