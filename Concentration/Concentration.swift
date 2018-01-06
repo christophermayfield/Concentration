@@ -45,6 +45,9 @@ class Concentration {
             let card = unShuffledCards.remove(at: randomIndex);
             cards.append(card)
             
+            var fin: Int;
+            
+            
             
         }
         
