@@ -33,6 +33,9 @@ class Concentration {
         }
     }
     
+    
+  
+    
     init(numberOfPairsOfCards: Int) {
         var unShuffledCards: [Card] = []
         for _ in 1...numberOfPairsOfCards {
