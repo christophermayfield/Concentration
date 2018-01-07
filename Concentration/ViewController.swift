@@ -63,6 +63,7 @@ class ViewController: UIViewController {
     }
     func hello(){
         print("Hello");
+        flipCount+=1
     }
 
 }
